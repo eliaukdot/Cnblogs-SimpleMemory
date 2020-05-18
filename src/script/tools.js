@@ -31,8 +31,8 @@ function myTools() {
     /**
      * 控制台输出内容
      */
-   /* this.consoleText = function(list, mode) {
-        var rHref = 'https://github.com/'
+   this.consoleText = function(list, mode) {
+        /* var rHref = 'https://github.com/'
             + window.cnblogsConfig.GhUserName + '/'
             + window.cnblogsConfig.GhRepositories + '/tree/'
             + window.cnblogsConfig.GhVersions,
@@ -58,9 +58,9 @@ function myTools() {
             default:
                 console.log('%c'+list.join('\n'), colors.gray);
                 break;
-        }
+        }*/
     };
-*/
+
     /**
      * 滚动主体滚动条到指定位置
      */

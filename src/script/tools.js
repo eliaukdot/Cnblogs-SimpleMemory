@@ -31,7 +31,7 @@ function myTools() {
     /**
      * 控制台输出内容
      */
-    this.consoleText = function(list, mode) {
+   /* this.consoleText = function(list, mode) {
         var rHref = 'https://github.com/'
             + window.cnblogsConfig.GhUserName + '/'
             + window.cnblogsConfig.GhRepositories + '/tree/'
@@ -60,7 +60,7 @@ function myTools() {
                 break;
         }
     };
-
+*/
     /**
      * 滚动主体滚动条到指定位置
      */

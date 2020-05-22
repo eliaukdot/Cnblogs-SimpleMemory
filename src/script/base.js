@@ -100,7 +100,7 @@ function Base() {
         $('#menuWrap').optiscroll({ forceScrollbars: true, maxTrackSize: 20, preventParentScroll: true });
 
         // 设置菜单个人简介头像
-        let blogAvatar = window.cnblogsConfig.blogAvatar ? window.cnblogsConfig.blogAvatar : 'https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/default_avatar.webp';
+        let blogAvatar = window.cnblogsConfig.blogAvatar ? window.cnblogsConfig.blogAvatar : 'https://cdn.jsdelivr.net/gh/lzyws79307453/Cnblogs-SimpleMemory@master/img/webp/default_avatar.webp';
         $('#menuBlogAvatar').append("<img src='"+blogAvatar+"'>");
 
         // html5-title
@@ -1311,7 +1311,7 @@ function Base() {
 
         // 使用 highlightjs 代码样式
         function highlightjsCode() {
-            tools.dynamicLoadingCss('https://cdn.jsdelivr.net/gh/lzyws739307453/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/src/style/highlightjs/'+hltheme+'.min.css');
+            tools.dynamicLoadingCss('https://cdn.jsdelivr.net/gh/'+(window.cnblogsConfig.GhUserName)+'/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/src/style/highlightjs/'+hltheme+'.min.css');
             require(['highlightjs'], function() {
                 $('.post pre').each(function(i, block) {
                     if ($.inArray(hltheme, [

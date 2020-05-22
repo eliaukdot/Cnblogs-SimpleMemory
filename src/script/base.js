@@ -1,7 +1,7 @@
 /*!
  * DATE: 2018-03-13
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
+ * UPDATES AND DOCS AT: https://github.com/lzyws739307453
+ * https://www.cnblogs.com/lzyws739307453/
  * @author: BNDong, dbnuo@foxmail.com
  **/
 function Base() {
@@ -1311,7 +1311,7 @@ function Base() {
 
         // 使用 highlightjs 代码样式
         function highlightjsCode() {
-            tools.dynamicLoadingCss('https://cdn.jsdelivr.net/gh/BNDong/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/src/style/highlightjs/'+hltheme+'.min.css');
+            tools.dynamicLoadingCss('https://cdn.jsdelivr.net/gh/lzyws739307453/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/src/style/highlightjs/'+hltheme+'.min.css');
             require(['highlightjs'], function() {
                 $('.post pre').each(function(i, block) {
                     if ($.inArray(hltheme, [
@@ -1437,7 +1437,7 @@ function Base() {
                         let id = idInfo[idInfo.length - 1], idTmp = id.toString().match(/[0-9]/g);
                         if ($.isArray(idTmp)) id = idTmp.join('');
                         let op = $('#comment_' + id + '_avatar'), patch  = op.length > 0 ? $.trim(op.text())
-                            : 'https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/default_avatar.webp';
+                            : 'https://cdn.jsdelivr.net/gh/lzyws739307453/Cnblogs-SimpleMemory@master/img/webp/default_avatar.webp';
                         let ac = $('#a_comment_author_' + id), ah = ac.length ? ac.attr('href') : 'javascropt:void(0);';
                         avatarHtml = '<div class="feedbackAvatar"><a href="' + ah + '" target="_blank"><img src="'+patch+'"/></a></div>';
                         obj.prepend(avatarHtml);
